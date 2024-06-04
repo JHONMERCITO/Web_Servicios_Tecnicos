@@ -1,0 +1,166 @@
+.container {
+    margin-top: 100px; /* Ajustar el margen superior para evitar que el contenido se superponga a la barra de navegación */
+    text-align: 300px;
+    font-size: 26px;
+    color: white;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    margin-left: 10px; /* Ajuste de margen izquierdo para alejar del borde */
+    font-weight: 300; /* Tipo de letra más delgado */
+    max-width: 1500px; /* Ancho máximo para limitar el ancho de la frase */
+    font-size: 100px; 
+}
+.texto {
+    margin-left: 20px; /* Mover el texto 20px hacia la izquierda */
+}
+
+
+.container p {
+    margin: 0; /* Eliminar el margen predeterminado */
+    line-height: 1.0; /* Espacio entre líneas */
+}
+
+.subtitulo {
+    font-weight: 10; /* Tipo de letra aún más delgado para el subtítulo */
+    font-family: Arial, sans-serif; /* Tipo de letra para la frase */
+    font-size: 40px; 
+}
+.boton-empieza-ahora {
+    font-size: 20px;
+    display: block; /* Convertir el enlace en un bloque para ocupar todo el ancho disponible */
+    width: 200px; /* Ancho del botón */
+    margin: 20px auto; /* Margen superior e inferior automático y margen lateral centrado */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    text-align: center; /* Alinear el texto al centro */
+    text-decoration: none; /* Eliminar el subrayado predeterminado */
+    border: 2px solid #007bff; /* Borde del botón */
+    border-radius: 10px; /* Borde redondeado */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave al cambiar el color */
+    margin-left: 20px; /* Ajuste de margen izquierdo para alejar del borde */
+}
+
+.boton-empieza-ahora:hover {
+    background-color: #0056b3; /* Cambiar color de fondo al pasar el mouse */
+    color: #ffffff; /* Cambiar color del texto al pasar el mouse */
+}
+.imagen-3d {
+    position: fixed; /* Fijar la posición de la imagen */
+    top: 55%; /* Alinear la imagen en la mitad superior de la página */
+    right: 0; /* Alinear la imagen a la derecha */
+    transform: translateY(-50%) rotateY(45deg); /* Rotar la imagen y desplazarla verticalmente */
+    perspective: 1000px; /* Ajusta la perspectiva */
+    z-index: -1; /* Colocar la imagen detrás del contenido */
+}
+.imagen-3d img {
+    width: 800px; /* Ancho deseado de la imagen */
+    height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #031535;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: rgb(137, 38, 38);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}/* Estilos para el encabezado */
+header {
+    background-color: #031535;
+    padding: 320px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #eaecede5;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.custom-bg-light {
+    background-color: #f0f0f0;
+}
+.custom-header .lead {
+    color: #f0f0f0; /* Color de texto personalizado */
+}
